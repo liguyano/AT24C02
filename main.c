@@ -132,15 +132,25 @@ void main()
 
     while(1) {
         kk=get_key();
-
+        if (kk<17)
+        {
+            Delay(20);
+        }
         if (kk==0)
         {
-            t1++;
-            while (get_key()<17);
+
+            t1++;showIntNUm(t1);
+            while (get_key()<17)
+            {
+                showIntNUm(t1);
+            }
         } else if (kk==1)
         {
-            t1--;
-            while (get_key()<17);
+            t1--;showIntNUm(t1);
+            while (get_key()<17)
+            {
+                showIntNUm(t1);
+            }
         } else if( kk==2)
         {
             t=t1>>8;
@@ -150,9 +160,12 @@ void main()
             t1<<=8;
             t1>>=8;
             ATC_WRITE_DATA(0x01,t1);
-            Delay500ms();
+            Delay500ms();showIntNUm(t1);
             //t1=t;
-            while (get_key()<17);
+            while (get_key()<17)
+            {
+                showIntNUm(t1);
+            }
         } else if (kk==3)
         {
             Delay500ms();
@@ -162,7 +175,10 @@ void main()
             t1=t;
             t1<<=8;
             t1+=sum;
-            while (get_key()<17);
+            while (get_key()<17)
+            {
+                showIntNUm(t1);
+            }
         }
         else
         {

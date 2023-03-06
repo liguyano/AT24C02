@@ -1,4 +1,4 @@
-//
+#define hahah jj//
 // Created by kurum on 2/22/2023.
 //
 
@@ -8,15 +8,20 @@
 #define xdata
 #define idata
 #define interrupt
-#define NUM0 
-#define NUM1 
-#define NUM2 
-#define NUM3 
-#define NUM4 
-#define NUM5 
-#define NUM6 
-#define NUM7 
-#define NUM8 
-#define NUM9 
+#define NUM0
+#define NUM1
+#define NUM2
+#define NUM3
+#define NUM4
+#define NUM5
+#define NUM6
+#define NUM7
+#define NUM8
+#define NUM9
+#define bit unsigned char
+#define sbit unsigned char
+#define uchar unsigned char
+#define uint unsigned int
+#define sfr uint
 
 #endif //CMAKELISTS_TXT_SSS_H

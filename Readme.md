@@ -1,6 +1,9 @@
 # ATC02 read and load test
 this program use the IIC transport bus to write and read 
 file .
+## update in Mar. 17th 2023
+nothing just test.  
+what I want to test. 
 ## update in Mar. 6th 2023
 update the b_tool.exe. 
 1. b_tool.exe will read the **m_SSS.h** and the **e_SSS.h** befor and after the KEIL 
